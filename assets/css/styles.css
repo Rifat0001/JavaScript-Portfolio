@@ -531,6 +531,8 @@ h1.common-title {
     transition: all .5s ease 0s
 }
 
+
+
 .clickbtn:hover {
     box-shadow: 0 0 25px rgb(0 0 0 / 85%);
     transform: rotate(10deg);
@@ -1423,20 +1425,7 @@ li {
     border-radius: 10px
 }
 
-.mix:after,
-.mix:before {
-    content: '';
-    background: linear-gradient(to right bottom, #000, #1d1d1d);
-    height: 0;
-    opacity: .1;
-    position: absolute;
-    right: 12px;
-    left: 12px;
-    bottom: 0;
-    z-index: 1;
-    transition: all .4s ease-in-out;
-    border-radius: 10px
-}
+
 
 .mix:after {
     top: 0;
@@ -1465,10 +1454,6 @@ li {
     transition: all .5s ease
 }
 
-.mix:hover .info {
-    opacity: 1;
-    top: 50%
-}
 
 .mix .info .title {
     font-size: 22px;
@@ -1853,6 +1838,84 @@ ul.container {
 .content-description p {
     margin: 0
 }
+
+/* rifat creation  */
+
+.my-btn {
+    padding: 2px 5px;
+}
+
+@media (max-width: 767px) {
+    .my-btn {
+        font-size: 14px;
+        padding: 2px 3px;
+    }
+
+    /* Add more mobile-specific styles as needed */
+}
+
+.my-btn {
+    padding: 4px 6px;
+    background-color: #FAC213;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 4px;
+    border: 1px solid #FAC213;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s
+}
+
+
+
+.my-btn:hover {
+    box-shadow: 0 0 25px rgb(0 0 0 / 85%);
+    background-color: transparent;
+    color: #fff;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s
+}
+
+.portfolio-each {
+    background-color: #232323;
+    border-left: 2px solid #FAC213;
+    padding: 32px 18px;
+    position: relative;
+    text-align: start;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 85%)
+}
+
+.p-head {
+    color: #FAC213;
+}
+
+.display-img .resume-section .resume-item .item-arrow::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 8px solid transparent;
+    left: 16px;
+    border-left-color: #FAC213
+}
+
+.resume-section .resume-item .item-title {
+    margin-bottom: 7px;
+    color: #FAC213
+}
+
+.resume-section .resume-item .item-details {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #fff
+}
+
 
 @-webkit-keyframes heading-move {
     0% {
