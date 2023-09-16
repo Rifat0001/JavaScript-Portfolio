@@ -254,6 +254,11 @@
         height: auto;
     }
 
+    .my-btn {
+        color: red;
+        font-size: 14px;
+    }
+
 
     .header-holder {
         padding: 0;
